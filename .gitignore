@@ -1,0 +1,75 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Generated Dart files
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio build artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Android generated
+/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+**/android/gradle/wrapper/gradle-wrapper.jar
+**/android/.gradle
+
+# iOS generated
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/Generated.xcconfig
+ios/Runner/GeneratedPluginRegistrant.swift
+ios/Runner/GeneratedPluginRegistrant.h
+ios/Runner/GeneratedPluginRegistrant.m
+
+# Firebase credentials (never commit these)
+google-services.json
+GoogleService-Info.plist
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Key/certificate files
+*.keystore
+*.jks
+key.properties
